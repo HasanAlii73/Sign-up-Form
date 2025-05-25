@@ -23,22 +23,44 @@
             </h1>
         </div>
         <form class="login-form">
-            <h2 class="form-header">Let's do this!</h2>
-            <label for="firstName" class="form-labels">First Name</label>
-            <input name="firstName" type="text" class="firstName" pattern="^[^0-9]+$" required>
-        
-            <label for="lastName" class="form-labels">Last Name</label>
-            <input name="lastName" type="text" class="lastName" pattern="^[^0-9]+$" required>
-            <label for="email" class="form-labels">Email</label>
-            <input name="email" type="email" class="email">
-            <label for="phoneNum" class="form-labels">Phone Number</label>
-            <input name="phoneNum" type="number" class="phoneNum" maxlength="10" minlength="10" required>
-            <label for="pass" class="form-labels">Password</label>
-            <input name="pass" type="password" class="pass" required>
-        
-            <label for="passC" class="form-labels">Confirm Password</label>
-            <input name="passC" type="password" class="passC" title="Passwords must match" required>
+
+            <h1 class="form-header">Let's do this!</h1>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="firstName" class="form-labels">First Name</label>
+                    <input name="firstName" type="text" class="firstName" pattern="^[^0-9]+$" required>
+                </div>
+                <div class="form-group">
+                    <label for="lastName" class="form-labels">Last Name</label>
+                    <input name="lastName" type="text" class="lastName" pattern="^[^0-9]+$" required>
+                </div>
+            </div>
+            
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="email" class="form-labels">Email</label>
+                    <input name="email" type="email" class="email">
+                </div>
+                <div class="form-group">
+                    <label for="phoneNum" class="form-labels">Phone Number</label>
+                    <input name="phoneNum" type="number" class="phoneNum" maxlength="10" minlength="10" required>
+                </div>
+            </div>
+            
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="pass" class="form-labels">Password</label>
+                    <input name="pass" type="password" class="pass" required>
+                </div>
+                <div class="form-group">
+                    <label for="passC" class="form-labels">Confirm Password</label>
+                    <input name="passC" type="password" class="passC" title="Passwords must match" required>
+                </div>
+            </div>
+
         </form>
+
         <div class="button-create-account">
             <button>Create Account</button>
             <p>Already have an account? <a href="examble.com">Log in</a></p>
