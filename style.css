@@ -12,13 +12,11 @@ body{
 }
 
 .sidebar{
-    /* display: flex; */
-    /* position: fixed; */
     background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover; /* or contain, or specific dimensions */
     background-position: center; /* positions the image */
     background-repeat: no-repeat; /* prevents tiling */
-    width: 100%;
+    width: 70vw;
     height: 100vh;
     
 }
@@ -35,4 +33,8 @@ body{
     justify-content: center;
     position: relative;
     top: 10rem;
+}
+
+.header-text {
+    font-size: 15px;
 }
