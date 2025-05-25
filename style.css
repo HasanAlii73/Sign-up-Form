@@ -35,6 +35,15 @@ body{
     top: 10rem;
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .header-text {
-    font-size: 15px;
+    font-size: 11px;
+    background-color: #eee;
+    padding: 100px 30px;
+    padding-top: 150px;
 }
