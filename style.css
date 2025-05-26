@@ -100,4 +100,13 @@ label{
 
 button{
     padding: 10px;
+    border-radius: 8px;
+    width: 10vw;
+    background-color: rgb(55, 110, 9);
+    color: white;
+}
+
+.a-login{
+    color: rgb(55, 110, 9);
+    text-decoration: none;
 }
