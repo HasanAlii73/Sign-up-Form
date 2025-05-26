@@ -74,7 +74,8 @@ a{
 }
 
 .form-group{
-    flex: 1;
+    /* flex: 1; */
+    margin-right: 60px;
 }
 
 label{
@@ -87,7 +88,7 @@ label{
 .button-create-account{
     background-color: #eee;
     padding: 30px;
-    padding-bottom: 130px;
+    padding-bottom: 70px;
 }
 
 .footer{
@@ -106,7 +107,32 @@ button{
     color: white;
 }
 
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    transform: scale(0.98);
+    background-color: rgb(33, 66, 5);
+}
+
 .a-login{
     color: rgb(55, 110, 9);
     text-decoration: none;
+}
+
+input{
+    border: 1px solid #E5E7EB;
+    width: 15vw;
+    padding: 5px;
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid blue;
+}
+
+input:invalid{
+    border-color: red;
+    box-shadow: 1px 2px 5px gray;
 }
